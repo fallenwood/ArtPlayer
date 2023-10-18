@@ -258,24 +258,24 @@ export default function setting(art, danmuku) {
                     selector: [
                         {
                             html: '极小',
-                            fontSize: '5',
+                            fontSize: 5,
                         },
                         {
                             html: '较小',
-                            fontSize: '9',
+                            fontSize: 9,
                         },
                         {
                             default: true,
                             html: '适中',
-                            fontSize: '12',
+                            fontSize: 12,
                         },
                         {
                             html: '较大',
-                            fontSize: '16',
+                            fontSize: 16,
                         },
                         {
                             html: '极大',
-                            fontSize: '20',
+                            fontSize: 20,
                         },
                     ],
                     onSelect: function (item) {
